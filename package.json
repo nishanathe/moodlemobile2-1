@@ -10,7 +10,7 @@
     "gulp-rename": "^1.2.0"
   },
   "devDependencies": {
-    "bower": "^1.3.3",
+    "bower": "^1.7.9",
     "gulp-clip-empty-files": "^0.1.1",
     "gulp-concat-util": "^0.5.2",
     "gulp-insert": "^0.4.0",
@@ -68,7 +68,15 @@
     }
   ],
   "cordovaPlatforms": [
-    "android",
-    "ios"
+    {
+      "platform": "android",
+      "version": "4.1.1",
+      "locator": "android@4.1.1"
+    },
+    {
+      "platform": "ios",
+      "version": "3.9.1",
+      "locator": "ios@3.9.1"
+    }
   ]
 }
