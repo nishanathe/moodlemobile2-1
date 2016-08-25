@@ -4,7 +4,7 @@
   <description>Marcellin Moodle Mobile app</description>
   <author href="http://moodle.com" email="juan@moodle.com">Juan Leyva</author>
   <content src="index.html"/>
-  <access origin="https://my.marcellin.vic.edu.au"/>
+  <access origin="*"/>
 
   <allow-navigation href="cdvfile:*" />
   <allow-navigation href="content:*" />
@@ -19,7 +19,7 @@
   <preference name="SplashScreen" value="screen"/>
   <preference name="SplashScreenDelay" value="3000"/>
   <preference name="KeyboardDisplayRequiresUserAction" value="false" />
-  <feature name="StatusBar">
+  <feature name="StatusBar">a
     <param name="ios-package" value="CDVStatusBar" onload="true"/>
   </feature>
   <platform name="android">
